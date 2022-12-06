@@ -1,0 +1,87 @@
+/* Body Styles */
+body {
+    margin: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    position: relative;
+
+    display: block;
+    width: 100%;
+}
+
+/* Directories Styles */
+.directories {
+    overflow: hidden;
+    background-color: #333;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.directories a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.directories a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.directories a.active {
+    background-color: #4a78db;
+    color: white;
+}
+
+/* home-section styles */
+.home-section {
+    position: block;
+    border-bottom: 1px solid;
+    margin-bottom: -1px;
+}
+
+/* projects-section styles */
+
+
+/* projects styles */
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: 1px solid;
+    margin-bottom: -1px;
+}
+
+.project1, .project2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project1 img, .project2 img {
+    width: 600px;
+    height: auto;
+    border-radius: 8%;
+}
+
+/* FIX THIS */
+.project1 caption, .project2 caption{
+    font-size: 50px;
+}
+
+/* resume-link styles */
+.resume-link {
+    display: flex;
+    justify-content: center;
+}
+
+.resume a{
+    font-size: 20px;
+}

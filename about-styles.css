@@ -1,0 +1,92 @@
+/* Body Styles */
+body {
+    margin: 0;
+    /* outline-style: solid; */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    position: relative;
+
+    display: block;
+    width: 100%;
+}
+
+/* Directories Styles */
+.directories {
+    overflow: hidden;
+    background-color: #333;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.directories a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.directories a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.directories a.active {
+    background-color: #4a78db;
+    color: white;
+}
+
+/* about-section styles */
+.about-section {
+    border-bottom: 1px solid;
+    margin-bottom: -1px;
+    
+    position: block;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+.about-section img {
+    width: 400px;
+    height: auto;
+
+    border-radius: 50%;
+}
+
+.about-section div {
+    width: 25%;
+}
+
+.description p {
+    font-size: 17px;
+}
+
+/* contact-me-footer styles */
+.contact-me-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-me-footer p {
+    font-size: 18px;
+}
+
+/* contact-info styles */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-info p {
+    margin: 0px;
+}
+
